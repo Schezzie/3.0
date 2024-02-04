@@ -4,96 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Comparison</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 600px;
-            margin: 50px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-
-        form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        label {
-            margin-top: 10px;
-            color: #555;
-        }
-
-        select,
-        textarea {
-            width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        button {
-            background-color: #4caf50;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .result {
-            margin-top: 20px;
-            text-align: center;
-        }
-
-        .compatibility-meter {
-            height: 20px;
-            border-radius: 4px;
-            margin-top: 10px;
-            transition: width 1s ease;
-        }
-    </style>
-    <title>Policy Compatibility Checker</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Policy Compatibility Checker</h1>
-        <form action="/compare" method="post">
-            <label for="selected_policy">Select Government Policy:</label>
-            <select id="selected_policy" name="selected_policy" required>
-                {% for policy in available_policies %}
-                    <option value="{{ policy }}">{{ policy }}</option>
-                {% endfor %}
-            </select>
-
-            <label for="company_policy">Company Policy:</label>
-            <textarea id="company_policy" name="company_policy" required></textarea>
-
-            <button type="submit">Compare Policies</button>
-        </form>
-
+    <h1>Policy Comparison</h1>
+    <form action="{{ url_for('compare_policies') }}" method="post">
+        <label for="government_policy">Select Government Policy:</label>
+        <select name="government_policy" id="government_policy">
+            <!-- Assuming 'DPDP.txt' is in 'projjjj/static/' -->
+            <option value="DPDP.txt" {% if request.form['government_policy'] == 'DPDP.txt' %}selected{% endif %}>DPDP Act</option>
+            <option value="CCPA.txt" {% if request.form['government_policy'] == 'CCPA.txt' %}selected{% endif %}>CCPA Act</option>
+            <option value="GDPR.txt" {% if request.form['government_policy'] == 'GDPR.txt' %}selected{% endif %}>GDPR Act</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="selected_policy">Selected Government Policy:</label>
+        <div id="selected_policy_display">
+            <textarea id="selected_policy_text" rows="5" readonly></textarea>
+        </div>
+        <br>
+        <label for="company_policy">Enter Company's Privacy Policy:</label>
+        <textarea name="company_policy" id="company_policy" rows="10" required>{{ request.form['company_policy'] }}</textarea>
+        <br>
+        <input type="submit" value="Compare">
+    </form>
+    <div id="result">
         {% if result %}
-            <div class="result">
-                <p>Compatibility Score: {{ result.score }}</p>
-                <div class="compatibility-meter" style="width: {{ result.score * 100 }}%; background-color: {{ result.color }};"></div>
-            </div>
+            <h2>Compatibility Score: {{ result.score }}</h2>
+            <div class="meter" style="background-color: {{ result.color }}; width: {{ result.score*100}}%;"> </div>
         {% endif %}
     </div>
+
+    <script>
+        // Script to update the selected policy display
+        document.getElementById('government_policy').addEventListener('change', function() {
+            var selectedPolicyFile = this.value;
+            var policyDisplayElement = document.getElementById('selected_policy_text');
+
+            // Make an AJAX request to fetch the content of the selected policy file
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    var selectedPolicyContent = xhr.responseText;
+                    policyDisplayElement.value = selectedPolicyContent;
+                }
+            };
+
+            xhr.open('GET', '{{ url_for("static", filename="") }}' + selectedPolicyFile, true);
+            xhr.send();
+        });
+    </script>
 </body>
 </html>

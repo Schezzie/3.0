@@ -6,6 +6,7 @@ from transformers import pipeline
 from model_loader import load_and_predict_model
 from textblob import TextBlob
 import spacy
+available_policies = ['CCPA.txt', 'GDPR.txt', 'DPDP.txt']
 
 app = Flask(__name__)
 summarizer = pipeline("summarization")
@@ -87,14 +88,10 @@ def summarize():
         return render_template('index.html', article=article, summary=total_summary)
 
 @app.route('/compare', methods=['POST', 'GET'])
-@app.route('/compare', methods=['POST', 'GET'])
 def compare_policies():
-    # Get the list of available government policies
-    available_policies = ['CCPA.txt', 'GDPR.txt', 'DPDP.txt']
-
     if request.method == 'POST':
         # Inside compare_policies function
-        selected_policy = request.form['selected_policy']
+        selected_policy = request.form['government_policy']
         company_policy = request.form['company_policy']
 
         # Load the selected government policy text
@@ -120,9 +117,13 @@ def compare_policies():
             'color': color
         }
 
-        return render_template('index1.html', result=result, available_policies=available_policies)
+        # Display the content of the selected policy text file
+        with open(policy_file_path, "r", encoding="utf-8") as file:
+            selected_policy_content = file.read()
 
-    return render_template('index1.html', result=None, available_policies=available_policies)
+        return render_template('index1.html', result=result, available_policies=available_policies, selected_policy_content=selected_policy_content)
+
+    return render_template('index1.html', result=None, available_policies=available_policies, selected_policy_content=None)
 
 def calculate_similarity(text1, text2):
     doc1 = nlp(text1)
@@ -142,5 +143,6 @@ def get_color(score):
         return 'yellow'
     else:
         return 'red'
+
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
