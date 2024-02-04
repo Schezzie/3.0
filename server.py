@@ -1,5 +1,5 @@
 # server.py
-
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from flask import Flask, render_template, request, jsonify
 from scraper import scrape_website
 from transformers import pipeline
@@ -88,18 +88,59 @@ def summarize():
 
 @app.route('/compare', methods=['POST', 'GET'])
 @app.route('/compare', methods=['POST', 'GET'])
-def compare():
+def compare_policies():
+    # Get the list of available government policies
+    available_policies = ['CCPA.txt', 'GDPR.txt', 'DPDP.txt']
+
     if request.method == 'POST':
-        government_policy = request.form.get('government_policy')
-        company_policy = request.form.get('company_policy')
+        # Inside compare_policies function
+        selected_policy = request.form['selected_policy']
+        company_policy = request.form['company_policy']
 
-        if government_policy is not None and company_policy is not None:
-            result = calculate_compatibility(government_policy, company_policy)
-            return render_template('index1.html', result=result)
+        # Load the selected government policy text
+        policy_file_path = f"C:/Users/ASUS/Desktop/Projects/help/3.0/static/{selected_policy}"
+        with open(policy_file_path, "r", encoding="utf-8") as file:
+            government_policy_text = file.read()
 
-    # Handle GET requests or invalid POST requests
-    return render_template('index1.html')
+        # Perform text comparison and sentiment analysis using spaCy and vaderSentiment
+        similarity_score = calculate_similarity(government_policy_text, company_policy)
+        sentiment_score = calculate_sentiment(company_policy)
 
+        # Combine scores to get the overall compatibility score
+        compatibility_score = (similarity_score + sentiment_score) / 2
+        compatibility_score = round(compatibility_score, 2)
+        if compatibility_score < 0:
+            compatibility_score = 0.1
 
+        # Determine color based on the compatibility score
+        color = get_color(compatibility_score)
+
+        result = {
+            'score': compatibility_score,
+            'color': color
+        }
+
+        return render_template('index1.html', result=result, available_policies=available_policies)
+
+    return render_template('index1.html', result=None, available_policies=available_policies)
+
+def calculate_similarity(text1, text2):
+    doc1 = nlp(text1)
+    doc2 = nlp(text2)
+    similarity_score = doc1.similarity(doc2)
+    return similarity_score
+
+def calculate_sentiment(text):
+    analyzer = SentimentIntensityAnalyzer()
+    sentiment_score = analyzer.polarity_scores(text)['compound']
+    return sentiment_score
+
+def get_color(score):
+    if score >= 0.8:
+        return 'green'
+    elif 0.6 <= score < 0.8:
+        return 'yellow'
+    else:
+        return 'red'
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
