@@ -78,6 +78,7 @@ def save_predictions_to_txt(predictions, output_file):
         for entry in predictions:
             if entry['prediction'] == 1:
                 file.write(f"{entry['text']}\n\n")
+    
 
 @app.route('/scrape', methods=['POST'])
 def scrape_and_predict():
@@ -93,13 +94,18 @@ def scrape_and_predict():
             predictions = load_and_predict_model(scraped_data_file)
             formatted_predictions = [{'text': entry['text'], 'prediction': entry['prediction']} for entry in predictions]
             save_predictions_to_txt(formatted_predictions, 'final.txt')
-
+            with open('final.txt', 'r') as file:
+                data = file.read()
+            formatted_data = '\n'.join(line.strip() for line in data.split('\n') if line.strip())
+            with open('final.txt', 'w') as file:
+                file.write(formatted_data)
             return jsonify({'status': 'Data scraped and predicted successfully', 'predictions': formatted_predictions})
         else:
             return jsonify({'error': 'Error during data scraping'})
     except Exception as e:
         error_message = f'Error during scraping and prediction: {str(e)}'
         return jsonify({'error': error_message})
+    
 
 @app.route('/')
 def index():
