@@ -29,6 +29,10 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       // Open a new tab for the policy checker
       chrome.tabs.create({ url: 'http://localhost:5000/compare' });
   }
+  else if (request.action === "predictText") {
+    // Open a new tab for the policy checker
+    chrome.tabs.create({ url: 'http://localhost:5000/predict' });
+  }
     // Add other actions as needed
 }); 
   

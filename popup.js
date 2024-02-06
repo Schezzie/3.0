@@ -41,3 +41,8 @@ document.getElementById("policyCheckerButton").addEventListener("click", functio
     // Inform the background script to open a new tab for the policy checker
     chrome.runtime.sendMessage({ action: "policyChecker" });
 });
+document.getElementById("predictButton").addEventListener("click", function () {
+    // Inform the background script to open a new tab for the policy checker
+    chrome.runtime.sendMessage({ action: "predictText" });
+});
+

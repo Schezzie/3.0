@@ -6,8 +6,44 @@ from transformers import pipeline
 from model_loader import load_and_predict_model
 from textblob import TextBlob
 import spacy
+import re
+import nltk
+import pandas as pd
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from sklearn.feature_extraction.text import TfidfVectorizer
+from keras.models import load_model
+nltk.download('stopwords')
+nltk.download('punkt')
 available_policies = ['CCPA.txt', 'GDPR.txt', 'DPDP.txt']
+model = load_model('saved_model_review.h5')
+stop_words = set(stopwords.words('english'))
+df = pd.read_csv('fake_reviews_dataset.csv', nrows=35000)
 
+def preprocess_text(text):
+    text = re.sub(r'\W', ' ', text)
+    text = re.sub(r'\d+', '', text)
+    text = text.lower()
+    tokens = word_tokenize(text)
+    tokens = [word for word in tokens if word not in stop_words]
+    text = ' '.join(tokens)
+    return text
+df['clean_text'] = df['text_'].apply(preprocess_text)
+
+# Apply preprocessing to the 'text_' column
+
+# Load the TF-IDF vectorizer
+tfidf_vectorizer = TfidfVectorizer(max_features=5000)
+tfidf_vectorizer.fit(df['clean_text'])
+# Function to preprocess and predict label with probability
+def predict_label(review_text):
+    clean_review = preprocess_text(review_text)
+    review_tfidf_features = tfidf_vectorizer.transform([clean_review])
+    review_tfidf_features.sort_indices()
+    review_tfidf_features_dense = review_tfidf_features.toarray()
+    predicted_prob = model.predict(review_tfidf_features_dense)[0][0]
+    predicted_label = "CG" if predicted_prob >= 0.8 else "OR"
+    return predicted_label, "{:.2f}".format(predicted_prob * 100)  # Convert probability to percentage and format to two decimal places
 app = Flask(__name__)
 summarizer = pipeline("summarization")
 nlp = spacy.load("en_core_web_md")
@@ -143,6 +179,13 @@ def get_color(score):
         return 'yellow'
     else:
         return 'red'
-
+@app.route('/predict')
+def home():
+    return render_template('index2.html')
+@app.route('/reviewcheck', methods=['POST'])
+def predict():
+    review = request.form['review']
+    predicted_label, predicted_prob = predict_label(review)
+    return render_template('result.html', review=review, predicted_label=predicted_label, predicted_prob=predicted_prob)
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

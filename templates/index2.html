@@ -1,0 +1,23 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles2.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Review Classifier</h1>
+    <form action="/reviewcheck" method="post">
+        <label for="review">Enter your review:</label>
+        <textarea id="review" name="review" placeholder="Paste your review here..." required></textarea>
+        <button type="submit">Predict</button>
+    </form>
+</div>
+
+</body>
+</html>
