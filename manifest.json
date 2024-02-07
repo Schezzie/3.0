@@ -5,7 +5,7 @@
   "description": "Summarize selected text and scrape data.",
   "permissions": [
       "activeTab",
-      "storage"
+      "storage","scripting"
   ],
   "content_scripts": [
       {

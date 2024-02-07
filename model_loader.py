@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 def load_and_predict_model(file_path):
     # Load your machine learning model
     model = load_model('model/dark_pattern_text_detection_model.h5')
-    df = pd.read_csv('C:/Users/sriva/3.1/output.csv')
+    df = pd.read_csv('C:/Users/ASUS/Desktop/Projects/help/3.0/output.csv')
     df = df.drop(" page_id", axis=1)
     tokenizer = Tokenizer()
     tokenizer.fit_on_texts(df['text'])

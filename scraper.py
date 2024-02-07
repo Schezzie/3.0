@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def scrape_website(url, output_file_path='output_file.txt'):
     # Send an HTTP request to the website
     response = requests.get(url)
-
+    print("Console hiii")
     # Check if the request was successful (status code 200)
     if response.status_code == 200:
         # Parse the HTML content of the page
