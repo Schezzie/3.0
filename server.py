@@ -79,6 +79,7 @@ def save_predictions_to_txt(predictions, output_file):
             if entry['prediction'] == 1:
                 file.write(f"{entry['text']}\n\n")
     
+from flask import send_file
 
 @app.route('/scrape', methods=['POST'])
 def scrape_and_predict():
@@ -99,6 +100,7 @@ def scrape_and_predict():
             formatted_data = '\n'.join(line.strip() for line in data.split('\n') if line.strip())
             with open('final.txt', 'w') as file:
                 file.write(formatted_data)
+            return send_file('final.txt', as_attachment=True)
             return jsonify({'status': 'Data scraped and predicted successfully', 'predictions': formatted_predictions})
         else:
             return jsonify({'error': 'Error during data scraping'})
