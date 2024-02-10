@@ -1,449 +1,1232 @@
-Anastasia Beverly Hills Cosmetics & Beauty | Official Website
-Skip to content
-Enable Accessibility
-Free Red Lip Set On Orders $60+
-Shop Our Latest Drops!
-Free Shipping on Orders Over $35
-Add $10 Brush to Your Order
-Arrow - Left
-Arrow - Right
+CSS Web Safe Fonts
+Tutorials
+Exercises
+Certificates
+Services
 Menu
-Search
-SHOP
-Shop All
-New Arrivals
-Valentine's Day Essentials
-Winter Essentials
-Best Sellers
-Sales & Offers
-Kits & Sets
-NORVINA® Collection
-Body Makeup
-Accessories
-Build a Palette
-Exclusives
-Minis
-Vegan
-BROWS
-Fill
-Detail
-Highlight
-Finish
-Tools
-Brow Kits
-Brushes
-EYES
-Eyeshadow & Primer
-Eyeliner
-Mascara
-False Lashes
-Brushes
-FACE
-Palettes
-Foundation & Concealer
-Contour
-Highlight & Glow
-Blush & Bronzer
-Setting Spray
-Brushes
-LIPS
-Lipstick
-Lip Gloss
-Lip Liner
-Lip Sets
-Brushes
-MAKEUP BRUSHES
-Eyebrows
-Eyes
-Face
-Lips
-LIMITED-EDITION
-GLOW SEEKER PEARL
-SHOP
-BUY A VALENTINES DAY ESSENTIAL
-GET 20% OFF A PALETTE
-SHOP
-INTRODUCING
-LIP VELVET
-SHOP
-LEARN
-Learn By Category
-Brows
-Palettes
-Lips
-Face
-Mascara
-Lash Genius®
-Video Library
-All Videos
-Helpful Resources
-About Us
-Our Brand Story
-National Brow Day
-The Golden Ratio
-Brow Quiz
-Subscriptions
-Nordstrom Services
-Search
-Close
-Search
-Close
-Anastasia Beverly Hills
-Loyalty
-Account
-Anastasia Beverly Hills
-Arrow - Left
-Close
-Arrow - Left
-Search
-Close
-Search
-SHOP
-Arrow - Right
-LEARN
-Arrow - Right
-Account
-Login | Sign up
-Loyalty
-Contact Us
-800.310.3773
-BROWS
-Arrow - Right
-EYES
-Arrow - Right
-FACE
-Arrow - Right
-LIPS
-Arrow - Right
-MAKEUP BRUSHES
-Arrow - Right
-Shop All Products
-Shop All
-New Arrivals
-Valentine's Day Essentials
-Winter Essentials
-Best Sellers
-Sales & Offers
-Kits & Sets
-NORVINA® Collection
-Body Makeup
-Accessories
-Build a Palette
-Exclusives
-Minis
-Vegan
-LIMITED-EDITION
-GLOW SEEKER PEARL
-SHOP
-BUY A VALENTINES DAY ESSENTIAL
-GET 20% OFF A PALETTE
-SHOP
-INTRODUCING
-LIP VELVET
-SHOP
-Learn By Category
-Brows
-Palettes
-Lips
-Face
-Mascara
-Lash Genius®
-Video Library
-All Videos
-Helpful Resources
-About Us
-Our Brand Story
-National Brow Day
-The Golden Ratio
-Brow Quiz
-Subscriptions
-Nordstrom Services
-Fill
-Detail
-Highlight
-Finish
-Tools
-Brow Kits
-Brushes
-Shop All BROWS
-Eyeshadow & Primer
-Eyeliner
-Mascara
-False Lashes
-Brushes
-Shop All EYES
-Palettes
-Foundation & Concealer
-Contour
-Highlight & Glow
-Blush & Bronzer
-Setting Spray
-Brushes
-Shop All FACE
-Lipstick
-Lip Gloss
-Lip Liner
-Lip Sets
-Brushes
-Shop All LIPS
-Eyebrows
-Eyes
-Face
-Lips
-Shop All MAKEUP BRUSHES
-Close
-YOUR BAG
-(0)
-UNLOCK YOUR FREE GIFT
-Arrow - Left
-Arrow - Right
-Free Red Lip Set On Orders Over $60
-FREE
-This item is no longer available
-Lock
-Checkmark
-Your cart is empty,
-continue shopping
+Search field
+×
+
+Log in
+Sign Up
+★
++1
+My W3Schools
+Get Certified
+Spaces
+Jobs
+Get Certified
+Spaces
+Jobs
+My W3Schools
+Tutorials
+Exercises
+Certificates
+Services
+Spaces
+Get Certified
+Jobs
+Logout
+×
+Tutorials
+Tutorials filter input
+×
+HTML and CSS
+Learn
+HTML
+Tutorial
+Reference
+Learn
+CSS
+Tutorial
+Reference
+Learn
+RWD
+Tutorial
+Learn
+Bootstrap
+Overview
+Learn
+W3.CSS
+Tutorial
+Reference
+Learn
+Sass
+Tutorial
+Reference
+Learn
+Colors
+Tutorial
+Reference
+Learn
+Icons
+Tutorial
+Reference
+Learn
+SVG
+Tutorial
+Reference
+Learn
+Canvas
+Tutorial
+Reference
+Learn
+Graphics
+Tutorial
+Learn
+Character Sets
+Reference
+Learn
+How To
+Tutorial
+Data Analytics
+Learn
+AI
+Tutorial
+Learn
+Generative AI
+Tutorial
+Learn
+ChatGPT-3.5
+Tutorial
+Learn
+ChatGPT-4
+Tutorial
+Learn
+Google Bard
+Tutorial
+Learn
+Machine Learning
+Tutorial
+Learn
+DSA
+Tutorial
+Learn
+Data Science
+Tutorial
+Learn
+NumPy
+Tutorial
+Learn
+Pandas
+Tutorial
+Learn
+SciPy
+Tutorial
+Learn
+Matplotlib
+Tutorial
+Learn
+Statistics
+Tutorial
+Learn
+Excel
+Tutorial
+Learn
+Google Sheets
+Tutorial
+Web Building
+Create a Website
+HOT!
+Create a Server
+NEW
+Where To Start
+Web Templates
+Web Statistics
+Web Certificates
+Web Development
+Code Editor
+Test Your Typing Speed
+Play a Code Game
+Cyber Security
+Accessibility
+Join our Newsletter
+JavaScript
+Learn
+JavaScript
+Tutorial
+Reference
+Learn
+React
+Tutorial
+Learn
+jQuery
+Tutorial
+Reference
+Learn
+Vue
+Tutorial
+Reference
+Learn
+AngularJS
+Tutorial
+Reference
+Learn
+JSON
+Tutorial
+Reference
+Learn
+AJAX
+Tutorial
+Learn
+AppML
+Tutorial
+Reference
+Learn
+W3.JS
+Tutorial
+Reference
+Web Building
+Create a Website
+HOT!
+Create a Server
+NEW
+Where To Start
+Web Templates
+Web Statistics
+Web Certificates
+Web Development
+Code Editor
+Test Your Typing Speed
+Play a Code Game
+Cyber Security
+Accessibility
+Join our Newsletter
+Backend
+Learn
+Python
+Tutorial
+Reference
+Learn
+SQL
+Tutorial
+Reference
+Learn
+MySQL
+Tutorial
+Reference
+Learn
+PHP
+Tutorial
+Reference
+Learn
+Java
+Tutorial
+Reference
+Learn
+C
+Tutorial
+Learn
+C++
+Tutorial
+Learn
+C#
+Tutorial
+Learn
+R
+Tutorial
+Learn
+Kotlin
+Tutorial
+Learn
+Go
+Tutorial
+Learn
+Django
+Tutorial
+Reference
+Learn
+PostgreSQL
+Tutorial
+Learn
+TypeScript
+Tutorial
+Learn
+ASP
+Tutorial
+Reference
+Learn
+Node.js
+Tutorial
+Reference
+Learn
+Raspberry Pi
+Tutorial
+Learn
+Git
+Tutorial
+Learn
+MongoDB
+Tutorial
+Learn
+AWS Cloud
+Tutorial
+Learn
+XML
+Tutorial
+Reference
+Data Analytics
+Learn
+AI
+Tutorial
+Learn
+Generative AI
+Tutorial
+Learn
+ChatGPT-3.5
+Tutorial
+Learn
+ChatGPT-4
+Tutorial
+Learn
+Google Bard
+Tutorial
+Learn
+Machine Learning
+Tutorial
+Learn
+DSA
+Tutorial
+Learn
+Data Science
+Tutorial
+Learn
+NumPy
+Tutorial
+Learn
+Pandas
+Tutorial
+Learn
+SciPy
+Tutorial
+Learn
+Matplotlib
+Tutorial
+Learn
+Statistics
+Tutorial
+Learn
+Excel
+Tutorial
+Learn
+Google Sheets
+Tutorial
+Web Building
+Create a Website
+HOT!
+Create a Server
+NEW
+Where To Start
+Web Templates
+Web Statistics
+Web Certificates
+Web Development
+Code Editor
+Test Your Typing Speed
+Play a Code Game
+Cyber Security
+Accessibility
+Join our Newsletter
+×
+Exercises
+Excercises filter input
+×
+HTML and CSS
+HTML
+Exercise
+Quiz
+CSS
+Exercise
+Quiz
+Bootstrap
+Exercise
+Quiz
+Data Analytics
+DSA
+Exercise
+Quiz
+NumPy
+Exercise
+Quiz
+Pandas
+Exercise
+Quiz
+SciPy
+Exercise
+Quiz
+Excel
+Exercise
+What is an Exercise?
+What is a Quiz?
+JavaScript
+JavaScript
+Exercise
+Quiz
+React
+Exercise
+Quiz
+jQuery
+Exercise
+Quiz
+Vue
+Exercise
+Quiz
+Backend
+Python
+Exercise
+Quiz
+SQL
+Exercise
+Quiz
+MySQL
+Exercise
+Quiz
+PHP
+Exercise
+Quiz
+Java
+Exercise
+Quiz
+C
+Exercise
+Quiz
+C++
+Exercise
+Quiz
+C#
+Exercise
+Quiz
+R
+Exercise
+Quiz
+Kotlin
+Exercise
+Quiz
+Django
+Exercise
+Quiz
+PostgreSQL
+Exercise
+Quiz
+TypeScript
+Exercise
+Quiz
+Git
+Exercise
+Quiz
+Go
+Exercise
+MongoDB
+Exercise
+AWS Cloud
+Exercise
+Quiz
+Data Analytics
+DSA
+Exercise
+Quiz
+NumPy
+Exercise
+Quiz
+Pandas
+Exercise
+Quiz
+SciPy
+Exercise
+Quiz
+Excel
+Exercise
+What is an Exercise?
+What is a Quiz?
+×
+Certificates
+Filter field for certifications
+×
+HTML and CSS
+HTML
+Certificate
+Course
+CSS
+Certificate
+Course
+Bootstrap 3
+Certificate
+Course
+Bootstrap 4
+Certificate
+Course
+Bootstrap 5
+Certificate
+Data Analytics
+Data Analytics
+Course
+NumPy
+Certificate
+Course
+Pandas
+Certificate
+Course
+Excel
+Certificate
+Social Media
+Course
+What is a Certificate?
+Programs
+Full Access
+Best Value!
+Front End
+Certificate
+Course
+Web Dev.
+Certificate
+Course
+Web App
+Certificate
+Course
+Web Design
+Certificate
+Course
+JavaScript
+JavaScript
+Certificate
+Course
+React
+Certificate
+Course
+jQuery
+Certificate
+Course
+Vue
+Certificate
+Programs
+Full Access
+Best Value!
+Front End
+Certificate
+Course
+Web Dev.
+Certificate
+Course
+Web App
+Certificate
+Course
+Web Design
+Certificate
+Course
+Programs
+Full Access
+Best Value!
+Front End
+Certificate
+Course
+Web Dev.
+Certificate
+Course
+Web App
+Certificate
+Course
+Web Design
+Certificate
+Course
+Backend
+Python
+Certificate
+Course
+SQL
+Certificate
+Course
+MySQL
+Certificate
+PHP
+Certificate
+Course
+Java
+Certificate
+Course
+C
+Certificate
+C++
+Certificate
+Course
+C#
+Certificate
+Course
+R
+Course
+Django
+Certificate
+TypeScript
+Certificate
+Course
+XML
+Certificate
+Course
+Cyber Security
+Certificate
+Course
+Accessibility
+Certificate
+Course
+Python Apps on AWS
+Course
+AWS Training
+Courses
+Data Analytics
+Data Analytics
+Course
+NumPy
+Course
+Pandas
+Course
+Excel
+Certificate
+Social Media
+Course
+What is a Certificate?
+×
+All Our Services
+Services filter input
+×
+W3Schools offers a wide range of services and products for beginners and professionals,
+helping millions of people everyday to learn and master new skills.
+Free Tutorials
+Enjoy our free tutorials like millions of other internet users since 1999
+References
+Explore our selection of references covering all popular coding languages
+Create a Website
+Create your own website with
+W3Schools Spaces
+- no setup required
+Exercises
+Test your skills with different exercises
+Quizzes
+Test yourself with multiple choice questions
+Get Certified
+Document your knowledge
+Log in / Sign Up
+Create a
+free
+W3Schools Account to Improve Your Learning Experience
+My Learning
+Track your learning progress at W3Schools and collect rewards
+Upgrade
+Become a PRO user and unlock powerful features (ad-free, hosting, videos,..)
+Where To Start
+Not sure where you want to start? Follow our guided path
+Code Editor (Try it)
+With our online code editor, you can edit code and view the result in your browser
+Videos
+Learn the basics of HTML in a fun and engaging video tutorial
+Templates
+We have created a bunch of responsive website templates you can use - for free!
+Web Hosting
+Host your own website, and share it to the world with
+W3Schools Spaces
+Create a Server
+Create your own server using Python, PHP, React.js, Node.js, Java, C#, etc.
+How To's
+Large collection of code snippets for HTML, CSS and JavaScript
+CSS Framework
+Build fast and responsive sites using our free
+W3.CSS
+framework
+Browser Statistics
+Read long term trends of browser usage
+Typing Speed
+Test your typing speed
+AWS Training
+Learn Amazon Web Services
+Color Picker
+Use our color picker to find different RGB, HEX and HSL colors.
+Code Game
+W3Schools Coding Game! Help the lynx collect pine cones
+Jobs
+Find Jobs or Hire Talent with W3Schools Pathfinder
+Newsletter
+Join our newsletter and get access to exclusive content every month
+×
+❮
+HTML
+CSS
+JAVASCRIPT
+SQL
+PYTHON
+JAVA
+PHP
+HOW TO
+W3.CSS
+C
+C++
+C#
+BOOTSTRAP
+REACT
+MYSQL
+JQUERY
+EXCEL
+XML
+DJANGO
+NUMPY
+PANDAS
+NODEJS
+R
+TYPESCRIPT
+ANGULAR
+GIT
+POSTGRESQL
+MONGODB
+ASP
+AI
+GO
+KOTLIN
+SASS
+VUE
+DSA
+GEN AI
+SCIPY
+AWS
+CYBERSECURITY
+DATA SCIENCE
+❯
+CSS
+Reference
+CSS Reference
+CSS Browser Support
+CSS Selectors
+CSS Functions
+CSS Reference Aural
+CSS Web Safe Fonts
+CSS Fallback Fonts
+CSS Animatable
+CSS Units
+CSS PX-EM Converter
+CSS Colors
+CSS Color Values
+CSS Default Values
+CSS Entities
+CSS
+Properties
+accent-color
+align-content
+align-items
+align-self
+all
+animation
+animation-delay
+animation-direction
+animation-duration
+animation-fill-mode
+animation-iteration-count
+animation-name
+animation-play-state
+animation-timing-function
+aspect-ratio
+backdrop-filter
+backface-visibility
+background
+background-attachment
+background-blend-mode
+background-clip
+background-color
+background-image
+background-origin
+background-position
+background-position-x
+background-position-y
+background-repeat
+background-size
+block-size
+border
+border-block
+border-block-color
+border-block-end
+border-block-end-color
+border-block-end-style
+border-block-end-width
+border-block-start
+border-block-start-color
+border-block-start-style
+border-block-start-width
+border-block-style
+border-block-width
+border-bottom
+border-bottom-color
+border-bottom-left-radius
+border-bottom-right-radius
+border-bottom-style
+border-bottom-width
+border-collapse
+border-color
+border-end-end-radius
+border-end-start-radius
+border-image
+border-image-outset
+border-image-repeat
+border-image-slice
+border-image-source
+border-image-width
+border-inline
+border-inline-color
+border-inline-end
+border-inline-end-color
+border-inline-end-style
+border-inline-end-width
+border-inline-start
+border-inline-start-color
+border-inline-start-style
+border-inline-start-width
+border-inline-style
+border-inline-width
+border-left
+border-left-color
+border-left-style
+border-left-width
+border-radius
+border-right
+border-right-color
+border-right-style
+border-right-width
+border-spacing
+border-start-end-radius
+border-start-start-radius
+border-style
+border-top
+border-top-color
+border-top-left-radius
+border-top-right-radius
+border-top-style
+border-top-width
+border-width
+bottom
+box-decoration-break
+box-reflect
+box-shadow
+box-sizing
+break-after
+break-before
+break-inside
+caption-side
+caret-color
+@charset
+clear
+clip
+clip-path
+color
+column-count
+column-fill
+column-gap
+column-rule
+column-rule-color
+column-rule-style
+column-rule-width
+column-span
+column-width
+columns
+content
+counter-increment
+counter-reset
+counter-set
+cursor
+direction
+display
+empty-cells
+filter
+flex
+flex-basis
+flex-direction
+flex-flow
+flex-grow
+flex-shrink
+flex-wrap
+float
+font
+@font-face
+font-family
+font-feature-settings
+font-kerning
+font-size
+font-size-adjust
+font-stretch
+font-style
+font-variant
+font-variant-caps
+font-weight
+gap
+grid
+grid-area
+grid-auto-columns
+grid-auto-flow
+grid-auto-rows
+grid-column
+grid-column-end
+grid-column-gap
+grid-column-start
+grid-gap
+grid-row
+grid-row-end
+grid-row-gap
+grid-row-start
+grid-template
+grid-template-areas
+grid-template-columns
+grid-template-rows
+hanging-punctuation
+height
+hyphens
+hyphenate-character
+image-rendering
+@import
+inline-size
+inset
+inset-block
+inset-block-end
+inset-block-start
+inset-inline
+inset-inline-end
+inset-inline-start
+isolation
+justify-content
+justify-items
+justify-self
+@keyframes
+left
+letter-spacing
+line-height
+list-style
+list-style-image
+list-style-position
+list-style-type
+margin
+margin-block
+margin-block-end
+margin-block-start
+margin-bottom
+margin-inline
+margin-inline-end
+margin-inline-start
+margin-left
+margin-right
+margin-top
+mask-image
+mask-mode
+mask-origin
+mask-position
+mask-repeat
+mask-size
+max-block-size
+max-height
+max-inline-size
+max-width
+@media
+min-block-size
+min-inline-size
+min-height
+min-width
+mix-blend-mode
+object-fit
+object-position
+offset
+offset-anchor
+offset-distance
+offset-path
+offset-rotate
+opacity
+order
+orphans
+outline
+outline-color
+outline-offset
+outline-style
+outline-width
+overflow
+overflow-anchor
+overflow-wrap
+overflow-x
+overflow-y
+overscroll-behavior
+overscroll-behavior-block
+overscroll-behavior-inline
+overscroll-behavior-x
+overscroll-behavior-y
+padding
+padding-block
+padding-block-end
+padding-block-start
+padding-bottom
+padding-inline
+padding-inline-end
+padding-inline-start
+padding-left
+padding-right
+padding-top
+page-break-after
+page-break-before
+page-break-inside
+paint-order
+perspective
+perspective-origin
+place-content
+place-items
+place-self
+pointer-events
+position
+quotes
+resize
+right
+rotate
+row-gap
+scale
+scroll-behavior
+scroll-margin
+scroll-margin-block
+scroll-margin-block-end
+scroll-margin-block-start
+scroll-margin-bottom
+scroll-margin-inline
+scroll-margin-inline-end
+scroll-margin-inline-start
+scroll-margin-left
+scroll-margin-right
+scroll-margin-top
+scroll-padding
+scroll-padding-block
+scroll-padding-block-end
+scroll-padding-block-start
+scroll-padding-bottom
+scroll-padding-inline
+scroll-padding-inline-end
+scroll-padding-inline-start
+scroll-padding-left
+scroll-padding-right
+scroll-padding-top
+scroll-snap-align
+scroll-snap-stop
+scroll-snap-type
+scrollbar-color
+tab-size
+table-layout
+text-align
+text-align-last
+text-decoration
+text-decoration-color
+text-decoration-line
+text-decoration-style
+text-decoration-thickness
+text-emphasis
+text-emphasis-color
+text-emphasis-position
+text-emphasis-style
+text-indent
+text-justify
+text-orientation
+text-overflow
+text-shadow
+text-transform
+text-underline-offset
+text-underline-position
+top
+transform
+transform-origin
+transform-style
+transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function
+translate
+unicode-bidi
+user-select
+vertical-align
+visibility
+white-space
+widows
+width
+word-break
+word-spacing
+word-wrap
+writing-mode
+z-index
+CSS
+Web Safe Fonts
+❮ Previous
+Next ❯
+Best Web Safe Fonts for HTML and CSS
+The following fonts are the best web safe fonts for HTML and CSS:
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
+Note:
+Before you publish your website, always check how your
+fonts appear on different browsers and devices, and always use
+fallback fonts
+!
+Arial (sans-serif)
+Arial is the most widely used font for both online and printed media. Arial
+is also the default font in Google Docs.
+Arial is one of the safest web fonts, and it is available on all major operating systems.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Verdana (sans-serif)
+Verdana is a very popular font. Verdana is easily readable even for small font sizes.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Tahoma (sans-serif)
+The Tahoma font has less space between the characters.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Trebuchet MS (sans-serif)
+Trebuchet MS was designed by Microsoft in 1996. Use this font carefully. Not
+supported by all mobile operating systems.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Times New Roman (serif)
+Times New Roman is one of the most recognizable fonts in the world. It looks
+professional and is used in many newspapers and "news" websites. It is also the
+primary font for Windows devices and applications.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Georgia (serif)
+Georgia is an elegant serif font. It is very readable at different font sizes, so it is a good candidate for mobile-responsive design.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Garamond (serif)
+Garamond is a classical font used for many printed books. It has a timeless
+look and good readability.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Courier New (monospace)
+Courier New is the most widely used monospace serif font.
+Courier New is often used with coding displays, and many email providers
+use it as their default font. Courier New is also the standard font for movie
+screenplays.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Brush Script MT (cursive)
+The Brush Script MT font was designed to mimic handwriting.
+It is elegant and sophisticated, but can be hard to read. Use it carefully.
+Example
+Lorem ipsum dolor sit amet
+Lorem ipsum dolor sit amet.
+0 1 2 3 4 5 6 7 8 9
+Try it Yourself »
+Tip:
+Also check out all available
+Google Fonts
+and how to use them.
+❮ Previous
+Next ❯
+★
++1
+W3schools Pathfinder
+Track your progress - it's free!
+Log in
+Sign Up
+COLOR PICKER
+SPACES
+UPGRADE
+AD-FREE
+NEWSLETTER
+GET CERTIFIED
+REPORT ERROR
+×
+Report Error
+If you want to report an error, or if you want to make a suggestion, do not hesitate to send us an e-mail:
+help@w3schools.com
+Top Tutorials
+HTML Tutorial
+CSS Tutorial
+JavaScript Tutorial
+How To Tutorial
+SQL Tutorial
+Python Tutorial
+W3.CSS Tutorial
+Bootstrap Tutorial
+PHP Tutorial
+Java Tutorial
+C++ Tutorial
+jQuery Tutorial
+Top References
+HTML Reference
+CSS Reference
+JavaScript Reference
+SQL Reference
+Python Reference
+W3.CSS Reference
+Bootstrap Reference
+PHP Reference
+HTML Colors
+Java Reference
+Angular Reference
+jQuery Reference
+Top Examples
+HTML Examples
+CSS Examples
+JavaScript Examples
+How To Examples
+SQL Examples
+Python Examples
+W3.CSS Examples
+Bootstrap Examples
+PHP Examples
+Java Examples
+XML Examples
+jQuery Examples
+Get Certified
+HTML Certificate
+CSS Certificate
+JavaScript Certificate
+Front End Certificate
+SQL Certificate
+Python Certificate
+PHP Certificate
+jQuery Certificate
+Java Certificate
+C++ Certificate
+C# Certificate
+XML Certificate
+
+
+
+
+FORUM
+ABOUT
+W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning.
+Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness
+of all content. While using W3Schools, you agree to have read and accepted our
+terms of use
+,
+cookie and privacy policy
 .
-Close
-FILTER
-Close
-SORT BY
-Arrow - Down
-VIEW RESULTS (
-)
-CLEAR FILTERS
-FREE GIFT
-SELECT YOUR SHADE
-Close
-Limited Edition Satin Lipstick
-Cherry
-Lychee
-Plum
-Pomegranate
-Rosette
-Select Color:
-Cherry
-Lychee
-Plum
-Pomegranate
-Rosette
-Lip Liner
-Cherry
-ABH Black Leather Bag
-Add To Bag
-LOG IN
-Close
-Email Address
-Password
-Forgot Password?
-Don't have an account yet?
-Create Account
-BUY A VALENTINES DAY FAVE, GET 20% OFF A PALETTE*
-Lots to love! Stock up on picks you'll adore, get 20% off Palettes perfect for your Valentine's Day look.
-WITH CODE:
-VALENTINE
-Shop
-NEW/
-VALENTINE'S DAY SHOP
-Shop heart-melting picks, from best-selling brows to luxe lipsticks that are perfect for whatever your Feb 14th has in store…
-LEARN MORE
-SHOP
-VALENTINE FAVES
-SHOP ALL
-Arrow - Left
-Arrow - Right
-Be Mine Deluxe Mini Lip Liner Set
-$42
-$72 Value
-Quickshop
-Arrow - Left
-Arrow - Right
-Sultry Mini Eyeshadow Palette
-$29
-Quickshop
-Arrow - Left
-Arrow - Right
-Velvet Cupid’s Lip Duo Kit
-6 Shades
-$42
-EXCLUSIVE
-Arrow - Left
-Arrow - Right
-Modern Renaissance Mini Eyeshadow Palette
-$29
-Quickshop
-Arrow - Left
-Arrow - Right
-Lash Sculpt Lengthening & Volumizing Mascara
-$26
-TIKTOK VIRAL
-Quickshop
-NEW/
-LASH GENIUS
-®
-LASH CONDITIONING SERUM
-An innovative conditioning lash serum designed to create fuller and longer-looking lashes that feel smoother, softer and tamer—the lashes you’ve always wanted.
-LEARN MORE
-ADD TO BAG
-LIP VELVET
-A velvet-smooth lip mousse in a weightless, true-matte color and cushion-comfortable formula for all-day wear.
-LEARN MORE
-BROW FREEZE
-®
-GEL
-Our innovative wax-gel hybrid that lifts, shapes, sculps and sets your brows with extreme hold and precision on-the-go.
-LEARN MORE
-NEW SHADE/
-PEARL
-GLOW SEEKER HIGHLIGHTER
-Love our illuminating Glow Seeker Highlighter? Meet our brand-new, exclusive shade Pearl – an iridescent white pearl with a pink shift. This universal shade delivers buildable intensity, amplifying skin and taking you from subtle luminosity to a strobing effect.
-LEARN MORE
-ADD TO BAG
-DISCOVER MORE
-GLOW SEEKER
-Ultra-beam effects. Weightless feel. Your perfect glow. Our most luxe highlighter is here for statement days and every day.
-SHOP
-BROW & LASH STYLING KIT
-An essential trio for brows + lashes.
-SHOP
-MINI MODERN RENAISSANCE
-Featuring 9 full-pigment shades ranging from neutral to berry tones in matte and metallic finishes.
-SHOP
-MINI SULTRY
-Featuring 9 full-pigment shades—including neutral, cool-toned mattes and metallics
-SHOP
-KITS & SETS
-Featuring full-size, full pigment limited edition value sets.
-SHOP
-BEST IN BROW
-SHOP ALL
-Arrow - Left
-Arrow - Right
-Brow Wiz®
-12 Shades
-$25
-AWARD WINNER
-Quickshop
-Arrow - Left
-Arrow - Right
-Brow Definer
-12 Shades
-$26
-SELLING FAST
-Quickshop
-Arrow - Left
-Arrow - Right
-Brow Freeze®
-$23
-Quickshop
-Arrow - Left
-Arrow - Right
-DIPBROW® Pomade
-11 Shades
-$21
-SELLING FAST
-Quickshop
-Arrow - Left
-Arrow - Right
-Clear Brow Gel
-$22
-Quickshop
-APOTHECARY SERIES:
-ANASTASIA SOARE
-Our Founding
-Eyebrow Shaping
-Product Development
-Balance & Proportions
-Everyday Essentials
-Labor of Love
-Arrow - Left
-Arrow - Right
-EXCLUSIVE
-TOOLS & OFFERS
-SUBSCRIBE & SAVE
-Take 10% off every subscribe & save order
-NORDSTROM SERVICES
-Discover our world-class grooming service
-BUILD A PALETTE
-Buy 4 Eyeshadow Singles for $32, 6 for $48, or 8 for $64
-BROW QUIZ
-Take the Quiz
-Shop All
-New Arrivals
-Valentine's Day Essentials
-Winter Essentials
-Best Sellers
-Sales & Offers
-Kits & Sets
-NORVINA® Collection
-Body Makeup
-Accessories
-Build a Palette
-Exclusives
-Minis
-Vegan
-GET SOCIAL
-WITH #ABH
-Anastasia Beverly Hills
-Enable Accessibility
-PINTEREST
-Arrow pointing to the top right
-INSTAGRAM
-Arrow pointing to the top right
-X
-Arrow pointing to the top right
-FACEBOOK
-Arrow pointing to the top right
-YOUTUBE
-Arrow pointing to the top right
-(RESPONSES IN 48-72 HOURS)
-800.310.3773
-M-F 9am - 6pm CST
-SIGN UP FOR NEWS
-Receive updates on new arrivals, special offers and other discounts.
-Email Address
-SIGN UP
-Phone Number
-SIGN UP
-By signing up via text, you agree to receive recurring automated promotional and personalized marketing text messages (e.g. cart reminders) from Anastasia Beverly Hills at the cell number used when signing up. Consent is not a condition of any purchase. Reply HELP for help and STOP to cancel. Msg frequency varies. Msg & data rates may apply. View Terms & Privacy.
-PINTEREST
-Arrow pointing to the top right
-INSTAGRAM
-Arrow pointing to the top right
-X
-Arrow pointing to the top right
-FACEBOOK
-Arrow pointing to the top right
-YOUTUBE
-Arrow pointing to the top right
-About us
-ABH Inner Circle
-Find a Store
-Salon
-Gift Cards
-Check Your Balance
-Subscriptions
-Careers
-Customer Service
-Shipping and Returns
-Track Your Order
-Make a Return
-Terms and Conditions
-Loyalty Terms & Conditions
-Privacy Policy
-California Notice of Collection
-Your Privacy Choices
-Manage Cookie Preferences
-Accessibility Statement
-Counterfeit Education
-Supply Chain Act
-Promotional Disclaimers
-Giveaway Terms & Conditions
-(RESPONSES IN 48-72 HOURS)
-800.310.3773
-M-F 9am - 6pm CST
-COPYRIGHT © 2024 ANASTASIA BEVERLY HILLS. ALL RIGHTS RESERVED.
-DO NOT SELL MY PERSONAL INFORMATION
-Close
-Choosing a selection results in a full page refresh.
+Copyright 1999-2024
+by Refsnes Data. All Rights Reserved.
+W3Schools is Powered by W3.CSS
+.
