@@ -5,21 +5,28 @@ from scraper import scrape_website
 from transformers import pipeline
 from model_loader import load_and_predict_model
 from textblob import TextBlob
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.sequence import pad_sequences
+from tensorflow.keras.preprocessing.text import Tokenizer
 import spacy
 import re
 import nltk
 import pandas as pd
+import numpy as np
+import pickle
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 from keras.models import load_model
 nltk.download('stopwords')
 nltk.download('punkt')
+with open('tokenizer.pickle', 'rb') as handle:
+    tokenizer = pickle.load(handle)
 available_policies = ['CCPA.txt', 'GDPR.txt', 'DPDP.txt']
-model = load_model('saved_model_review.h5')
+model = load_model('your_model.h5')
 stop_words = set(stopwords.words('english'))
 df = pd.read_csv('fake_reviews_dataset.csv', nrows=35000)
-
+max_len_text = 504
 def preprocess_text(text):
     text = re.sub(r'\W', ' ', text)
     text = re.sub(r'\d+', '', text)
@@ -114,6 +121,8 @@ def index():
     return render_template('index.html')
 def index1():
     return render_template('index1.html')
+def home():
+    return render_template('index2.html')
 
 @app.route('/summarize', methods=['POST'])
 def summarize():
@@ -187,13 +196,37 @@ def get_color(score):
         return 'yellow'
     else:
         return 'red'
-@app.route('/predict')
-def home():
-    return render_template('index2.html')
-@app.route('/reviewcheck', methods=['POST'])
+@app.route('/predict', methods=['POST', 'GET'])
 def predict():
-    review = request.form['review']
-    predicted_label, predicted_prob = predict_label(review)
-    return render_template('result.html', review=review, predicted_label=predicted_label, predicted_prob=predicted_prob)
+    if request.method == 'GET':
+        # Render the initial page with the form
+        return render_template('index2.html', prediction_text=None, text_input=None)
+    elif request.method == 'POST':
+        # Get the text and rating from the form
+        text = request.form['text']
+        rating = float(request.form['rating'])  # Convert rating to float
+    
+        # Tokenize and pad the text (make sure you have defined tokenizer and max_len_text)
+        text_sequence = tokenizer.texts_to_sequences([text])
+        padded_sequence = pad_sequences(text_sequence, maxlen=max_len_text)
+        
+        # Preprocess rating input
+        rating_input = np.array(rating).reshape(-1, 1)
+        
+        # Make prediction
+        # Make prediction
+        prediction = model.predict([np.array(padded_sequence), np.array(rating_input)])
+
+        print(prediction)
+        
+        # Decode the prediction
+        predicted_label = np.argmax(prediction)
+        prediction_text = 'Predicted label: Original Review' if predicted_label == 1 else 'Predicted label: Computer Generated Fake review'
+        
+        # Return the prediction along with the input text
+        if (predicted_label==1):
+            return render_template('index2.html', prediction_text='Predicted label: Orginal Review', text_input=text)
+        else:
+            return render_template('index2.html', prediction_text='Predicted label: Computer Generated Fake review', text_input=text)
 if __name__ == '__main__':
     app.run(port=5000, debug=True)

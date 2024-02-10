@@ -75,7 +75,7 @@ document.getElementById("policyCheckerButton").addEventListener("click", functio
 });
 document.getElementById("predictButton").addEventListener("click", function () {
     // Inform the background script to open a new tab for the policy checker
-    chrome.runtime.sendMessage({ action: "predictText" });
+    chrome.runtime.sendMessage({ action: "predict" });
 });
 document.getElementById('highlight').addEventListener('click', function() {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
