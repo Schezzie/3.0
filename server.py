@@ -20,12 +20,12 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from keras.models import load_model
 nltk.download('stopwords')
 nltk.download('punkt')
-with open('tokenizer.pickle', 'rb') as handle:
+with open('C:/Users/ASUS/Desktop/Projects/help/3.0/model/tokenizer.pickle', 'rb') as handle:
     tokenizer = pickle.load(handle)
 available_policies = ['CCPA.txt', 'GDPR.txt', 'DPDP.txt']
-model = load_model('your_model.h5')
+model = load_model('C:/Users/ASUS/Desktop/Projects/help/3.0/model/your_model.h5')
 stop_words = set(stopwords.words('english'))
-df = pd.read_csv('fake_reviews_dataset.csv', nrows=35000)
+df = pd.read_csv('C:/Users/ASUS/Desktop/Projects/help/3.0/Datasets/fake_reviews_dataset.csv', nrows=35000)
 max_len_text = 504
 def preprocess_text(text):
     text = re.sub(r'\W', ' ', text)
@@ -196,6 +196,20 @@ def get_color(score):
         return 'yellow'
     else:
         return 'red'
+@app.route('/feedback')
+def index3():
+    return render_template('index3.html')
+
+@app.route('/submit_feedback', methods=['POST'])
+def submit_feedback():
+    feedback = request.form['feedback']
+    feedback_data.append(feedback)
+    return jsonify({"message": "Feedback submitted successfully!"})
+
+@app.route('/get_feedback', methods=['GET'])
+def get_feedback():
+    return jsonify({"feedback":feedback_data})
+                    
 @app.route('/predict', methods=['POST', 'GET'])
 def predict():
     if request.method == 'GET':

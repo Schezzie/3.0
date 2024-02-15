@@ -37,6 +37,12 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     // Open a new tab for the prediction URL
     chrome.tabs.create({ url: predictionUrl });
 }
+else if (request.action === "feedback") {
+  const predictionUrl = 'http://127.0.0.1:5000/feedback';
+
+  // Open a new tab for the prediction URL
+  chrome.tabs.create({ url: predictionUrl });
+}
     // Add other actions as needed
 }); 
 
